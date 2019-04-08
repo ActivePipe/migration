@@ -10,7 +10,7 @@ Define your migrations in code:
 var migrations = []migration.Migration{
   &migration.Definition{
     ID: 1,
-    UP: `CREATE TABLE blarg (id INT NOT NULL, PRIMARY KEY (id))`
+    Up: `CREATE TABLE blarg (id INT NOT NULL, PRIMARY KEY (id))`,
   }
 }
 ```
